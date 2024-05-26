@@ -1,0 +1,58 @@
+article, header, footer, nav {
+    border: 1px solid black;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+article {
+    background-color: rgb(159, 215, 238);
+    padding: 0 10px 100px 10px;
+}
+
+body {
+    background-color: rgb(255, 232, 128);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    width: 1350px;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(191, 166, 240);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header {
+    background-color: rgb(172, 172, 172);
+    color: rgb(24, 111, 199);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+img {
+    border: dotted;
+    width: 200px;
+    border-radius: 20px;
+}
+
+li {
+    color: red;
+}
+
+nav {
+    background-color: rgb(170, 255, 90);
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    
+    <title>Pizza2</title>
+</head> 
+<body> 
+    <h2>Objednávka pizzy</h2> 
+    <form> 
+    <label>Zvolte druh pizzy:</label> 
+    <select name="druhPizzy" id="druhPizzy">
+        <option value="Napoletana">Napoletana</option> 
+        <option value="Pepperoni">Pepperoni</option> 
+        <option value="Hawaii">Hawaii</option>
+    </select><br>
+    <label for="pocetKusu">Počet kusů (max. 15):</label>
+    <input type="number" value="1" min="1" max="15" id="pocetKusu"><br>
+    <label for="mala">Malá 230 Kč (d = 40cm)</label>
+    <input type="radio" name="velikost" id="mala"> <br>
+    <label for="velka">Velká 300 Kč (d = 60cm)</label>
+    <input type="radio" name="velikost" id="velka"> <br>
+    <label for="susenka">Sušenka navíc:</label>
+    <input type="checkbox" name="susenka" id="susenka"> <br>
+    <button onclick="shrnutiObj()">Objednavka</button>
+    </form> 
+</body> 
+</html>

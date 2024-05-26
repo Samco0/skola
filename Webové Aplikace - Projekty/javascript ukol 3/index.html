@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>PicaHut</title>
+
+    <style>
+        body{
+            color: rgb(194, 194, 194);
+            background-color: rgb(29, 29, 29);
+        }
+        input{
+            background-color: rgb(194, 194, 194);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Objednavka pizzy</h1>
+
+    <table>
+        <tr>
+            <th colspan="3">Naše nabídka</th>
+        </tr>
+        <tr>
+            <th>číslo</th>
+            <th>název</th>
+            <th>cena</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Margherita</td>
+            <td>180 Kč</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Napoletana</td>
+            <td>220 Kč</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Prosciutto</td>
+            <td>215 Kč</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Diavola</td>
+            <td>230 Kč</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Frutti di Mare</td>
+            <td>250 Kč</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Hawaii</td>
+            <td>215 Kč</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Quatro Formaggi</td>
+            <td>220 Kč</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form>
+        <table>
+            <tr>
+                <td><label for="cislo_pizzy">Zadejte číslo pizzy:</label></td>
+                <td><input type="number" max="7" min="1" placeholder="1 až 7" id="cislo_pizzy"></td>
+            </tr>
+            <tr>
+                <td><label for="pocet_kusu">Počet kusů (max. 20):</label></td>
+                <td><input type="number" max="20" min="1" placeholder="1 až 20" id="pocet_kusu"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button onclick="potvrditObjednavku()">Objednat</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

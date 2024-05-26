@@ -1,0 +1,129 @@
+#daniel, #dervla {
+    float: left;
+}
+
+#dervla {
+    float: left;
+    padding-right: 10px;
+}
+
+#sam {
+    float: right;
+    padding-left: 10px;
+}
+    
+
+article, header, footer, nav {
+    border: 1px solid black;
+}
+
+.colDesc {
+    text-align: center;
+    font-size: small;
+    background-color: transparent;
+    border-spacing: 0px;
+    padding: 5px;
+    border: 1px black solid;
+}
+
+.colDesc :hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.colP {
+    padding: 0px;
+    margin: 0px;
+}
+
+.colTitle {
+    background-color: rgb(0, 139, 74);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-spacing: 0px;
+    border: 1px black solid;
+}
+
+.colImg {
+    border-spacing: 0px;
+    border: 1px black solid;
+    padding: 0;
+}
+
+.nav_a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    background-color: rgb(243, 226, 212);
+    text-align: justify;
+    height: 550px;
+}
+
+div {
+    margin: 25px 500px 0px 500px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding-right: 10px;
+    text-align: right;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(0, 139, 74);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(0, 44, 24);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.article_p {
+    padding: 15px;
+}
+
+.header_p {
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+.navTD {
+    height: 15px;
+    border: 1px transparent;
+}
+
+.navTD :hover {
+    color: rgb(0, 44, 24);
+    background-color: rgb(243, 226, 212);
+}
+
+.photogalleryIMG{
+    width: 250px;
+}
+
+.photogalleryTR {
+    border-spacing: 0px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+}
+
+.photogalleryTable {
+    border-spacing: 0px;
+    padding-left: 75px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+</head>
+<body>
+    <form action="index.html" method="post" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Prehled vstupnich prvku formulare</legend>
+            <table>
+                <tr>
+                    <td><label for="jmeno">Jmeno:</label></td>
+                    <td><input type="text" id="jmeno" name="jmeno"></td>
+                </tr>
+                <tr>
+                    <td><label for="prijmeni">Prijmeni:</label></td>
+                    <td><input type="text" id="prijmeni" name="prijmeni"></td>
+                </tr>
+                <tr>
+                    <td><label for="mesto">Mesto:</label></td>
+                    <td><select name="" id="">
+                        <option value="Havirov">Havirov</option>
+                        <option value="Tesin">Cesky Tesin</option>
+                        <option value="Bangkok">Bangkok</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="example@email.cz"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobil">Telefon:</label></td>
+                    <td><input type="tel" id="mobil" name="mobil" placeholder="777-777-777"></td>
+                </tr>
+                <tr>
+                    <td><label for="vek">Vek:</label></td>
+                    <td><input type="number" id="vek" name="vek"></td>
+                </tr>
+                <tr>
+                    <td><label for="heslo">Heslo:</label></td>
+                    <td><input type="password" id="heslo" name="heslo" placeholder="*******"></td>
+                </tr>
+                <tr>
+                    <td><label for="poznamka">Poznamka:</label></td>
+                    <td><textarea name="poznamka" id="poznamka" cols="30" rows="5" placeholder="Uvedte alespon 3 vase silne stranky"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="hodnoceni">Hodnoceni<br>(od 1 do 5):</label></td>
+                    <td><input type="range" id="hodnoceni" name="hodnoceni" min="1" max="5"></td>
+                </tr>
+                <tr>
+                    <td><label for="rychlost">Rychlost<br>(od 1 do 100):</label></td>
+                    <td><input type="range" id="rychlost" name="rychlost" min="1" max="100"></td>
+                </tr>
+                <tr>
+                    <td><label for="predmet">Obibeny predmet:</label></td>
+                    <td><input type="radio" name="predmet" id="predmet"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
