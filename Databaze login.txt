@@ -1,0 +1,10 @@
+x6a_cerny@172.16.1.4
+
+database:
+db_2a01
+
+user:
+u2a01
+
+password:
+2a01
