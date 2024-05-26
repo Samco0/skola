@@ -1,0 +1,22 @@
+[
+    {
+        "caretX": 2,
+        "caretY": 21,
+        "filename": "C:/users/samco/My Documents/School/Druhak/Programovani/19. 10. 2023/main.c",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    },
+    {
+        "caretX": 13,
+        "caretY": 20,
+        "filename": "C:/users/samco/My Documents/School/Druhak/Programovani/19. 10. 2023/mymath.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 1
+    }
+]
