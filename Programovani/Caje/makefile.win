@@ -1,0 +1,40 @@
+# Project: Caje
+# Makefile created by Red Panda C++ 3.1.2871
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = 
+INCS     = 
+CXXINCS  = 
+CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+WINDRESFLAGS = 
+RES      = Caje_private.res
+OBJ      = main.o caje.o $(RES)
+BIN      = Caje.exe
+LINKOBJ  = "main.o" "caje.o" "Caje_private.res"
+CLEANOBJ = "main.o" "caje.o" "Caje_private.res" "Caje.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+Caje.exe: $(OBJ)
+
+	$(CC) $(LINKOBJ) -o "Caje.exe" $(LIBS)
+
+main.o: main.c caje.h
+	$(CC) -c "main.c" -o "main.o" $(CFLAGS) 
+
+caje.o: caje.c caje.h
+	$(CC) -c "caje.c" -o "caje.o" $(CFLAGS) 
+
+Caje_private.res: Caje_private.rc 
+	$(WINDRES) -i "Caje_private.rc" --input-format=rc -o "Caje_private.res" -O coff $(WINDRESFLAGS) 
+

@@ -1,0 +1,23 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "main.c",
+            "line": 20,
+            "timestamp": "1729506992430"
+        },
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "caje.c",
+            "line": 7,
+            "timestamp": "1729507992352"
+        }
+    ],
+    "timestamp": "1731314761884",
+    "watchvars": [
+    ]
+}

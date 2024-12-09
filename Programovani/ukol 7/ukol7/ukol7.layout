@@ -1,0 +1,41 @@
+[
+    {
+        "caretX": 18,
+        "caretY": 7,
+        "filename": "C:/vyuka/3A/cerny/ukol 7/ukol7/slovicka.h",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 1,
+        "topLine": 1
+    },
+    {
+        "caretX": 2,
+        "caretY": 25,
+        "filename": "C:/vyuka/3A/cerny/ukol 7/ukol7/slovicka.c",
+        "focused": true,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 2,
+        "topLine": 13
+    },
+    {
+        "caretX": 15,
+        "caretY": 8,
+        "filename": "C:/vyuka/3A/cerny/ukol 7/ukol7/main.c",
+        "focused": false,
+        "isOpen": true,
+        "leftChar": 1,
+        "order": 0,
+        "topLine": 1
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/vyuka/3A/cerny/ukol 7/ukol7/slovicka.txt",
+        "focused": false,
+        "isOpen": false,
+        "leftChar": 1,
+        "topLine": 1
+    }
+]

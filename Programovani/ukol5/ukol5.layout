@@ -1,0 +1,32 @@
+[
+    {
+        "caretX": 7,
+        "caretY": 9,
+        "filename": "C:/Users/Samuel/Documents/projects/ukol5/array.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 0
+    },
+    {
+        "caretX": 19,
+        "caretY": 8,
+        "filename": "C:/Users/Samuel/Documents/projects/ukol5/main.c",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 0
+    },
+    {
+        "caretX": 2,
+        "caretY": 58,
+        "filename": "C:/Users/Samuel/Documents/projects/ukol5/array.c",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 2,
+        "top": 594
+    }
+]

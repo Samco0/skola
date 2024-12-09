@@ -1,0 +1,41 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 38,
+        "filename": "C:/Users/Samuel/Documents/projects/projekt/main.c",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 324
+    },
+    {
+        "caretX": 36,
+        "caretY": 108,
+        "filename": "C:/Users/Samuel/Documents/projects/projekt/knihovna.c",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 2,
+        "top": 2403
+    },
+    {
+        "caretX": 1,
+        "caretY": 4,
+        "filename": "C:/Users/Samuel/Documents/projects/projekt/knihovna.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 0
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "C:/Users/Samuel/Documents/projects/projekt/cisla.txt",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    }
+]
