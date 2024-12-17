@@ -1,0 +1,40 @@
+# Project: dictionary
+# Makefile created by Red Panda C++ 3.1.2871
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = 
+INCS     = 
+CXXINCS  = 
+CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+WINDRESFLAGS = 
+RES      = ukol_6_private.res
+OBJ      = main.o dictionary.o $(RES)
+BIN      = ukol\ 6.exe
+LINKOBJ  = "main.o" "dictionary.o" "ukol_6_private.res"
+CLEANOBJ = "main.o" "dictionary.o" "ukol_6_private.res" "ukol 6.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+ukol\ 6.exe: $(OBJ)
+
+	$(CC) $(LINKOBJ) -o "ukol 6.exe" $(LIBS)
+
+main.o: main.c dictionary.h
+	$(CC) -c "main.c" -o "main.o" $(CFLAGS)  -finput-charset=UTF-8 -fexec-charset=windows-1250
+
+dictionary.o: dictionary.c dictionary.h
+	$(CC) -c "dictionary.c" -o "dictionary.o" $(CFLAGS) 
+
+ukol_6_private.res: ukol_6_private.rc 
+	$(WINDRES) -i "ukol_6_private.rc" --input-format=rc -o "ukol_6_private.res" -O coff $(WINDRESFLAGS) 
+

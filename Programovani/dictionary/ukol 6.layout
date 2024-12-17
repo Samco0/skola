@@ -1,0 +1,41 @@
+[
+    {
+        "caretX": 28,
+        "caretY": 43,
+        "filename": "C:/Users/Samuel/Documents/projects/dictionary/main.c",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 440
+    },
+    {
+        "caretX": 7,
+        "caretY": 21,
+        "filename": "C:/Users/Samuel/Documents/projects/dictionary/dictionary.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 2,
+        "top": 0
+    },
+    {
+        "caretX": 15,
+        "caretY": 19,
+        "filename": "C:/Users/Samuel/Documents/projects/dictionary/dictionary.txt",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 26,
+        "caretY": 232,
+        "filename": "C:/Users/Samuel/Documents/projects/dictionary/dictionary.c",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 4080
+    }
+]

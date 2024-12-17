@@ -1,0 +1,15 @@
+{
+    "breakpoints": [
+        {
+            "breakpoint_type": 0,
+            "condition": "",
+            "enabled": true,
+            "filename": "dictionary.c",
+            "line": 183,
+            "timestamp": "1733737984353"
+        }
+    ],
+    "timestamp": "1734373038409",
+    "watchvars": [
+    ]
+}
