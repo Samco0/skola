@@ -1,0 +1,5 @@
+jakub;hovadik;12
+tomas;ripi;21
+krystof;zeli;17
+ruda;zOstravy;32
+david;kepuc;11
