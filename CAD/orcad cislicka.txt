@@ -1,0 +1,29 @@
+Logicke obvody
+NOT - 7404 - vraci opacnou hodnotu
+AND - 7408 - aktivuje se jen kdyz oba porty maji 1
+OR - 7432 - aktivuje ze pokud alespon jeden port ma 1
+NOR - 7402 - aktivuje se pouze pokud jsou oba porty 0
+XOR - 7486 - aktivuje se pouze kdyz je na jednom portu 1
+NAND 2in - 7400 - neaktivuje se kdyz jsou na obou 1, jinak jo
+NAND 3in - 7410 - neaktivuje se kdyz jsou na vsech trech 1, jinak jo
+NAND 4in - 7420 - neaktivuje se kdyz jsou na vsech ctyrech 1, jinak jo
+NAND 8in - 7430 - neaktivuje se kdyz jsou na vsech osmi 1, jinak jo
+
+Čísla součástek pro klopné obvody D, JK
+D: 7474  – Obvod D klapky (D flip-flop)
+JK (3 vstupy): 7472  – Obvod JK klapky s 3 vstupy
+
+Čísla součástek pro registry a čítače
+Čítače:
+0-9: 7490A  – Čítač pro čísla 0-9
+0-15: 7493A  – Čítač pro čísla 0-15
+
+Registry:
+Datový a posuvný registr -74194  – 4-bitový datový a posuvný registr
+4-bitový posuvný registr (paralelní vstup) - 7495A  – 4-bitový registr s paralelním vstupem
+
+DC 1 z N - 74HC138 aktivni LOW
+BCD na sedmisegment - 7447 aktivni LOW
+Komparátor - 74HC85
+sčítačka - 74LS83
+MX (8 datových kanálů) - 74HC151
